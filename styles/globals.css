@@ -27,7 +27,7 @@ body {
 }
 
 .listShadow {
-	margin: 0 !important;
+	margin: 0 !important; 
 	padding: 0 !important;
 	border: 0 !important;
 	width: 50px;
@@ -45,12 +45,24 @@ body {
 
 /* Video Player */
 
-.video-player {
+.video-container {
 	width: 100vw;
 	height: 100vh;
-	max-width: 1440px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+
 }
 
-.video-player-container {
-	position: relative
+
+.player {
+	
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	border: none;
+	overflow: hidden;
 }
